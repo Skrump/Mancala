@@ -11,6 +11,25 @@ public class BoardTester {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	
+    	// BoardFrame myFrame = new BoardFrame(); // Reference to board
+		
+		// Create reference to buttons/textfields that will take input from user
+		// Then pass them by reference to initialPanel
+		
+		// InitialPanel initialPanel = new InitialPanel();
+		// myFrame.add(initialPanel);
+		
+		// Using InitialPanel object, take input from user who will decide which of the two styles the board
+		// will use for the game. 
+		
+		// BoardStyle myStyle;
+		// Process the data taken as input by the InitialPanel object.
+		// If Boarstyle1 was chosen, initialize myStyle with BoardStyle1 with the chosen number of stones.
+		// else if BoardStyle2 was chosen, initialize myStyle with BoardStyle2 with the chosen number of stones.
+    	
+    	// Declare and initialize Board object. Set references of listeners from Panel to Board object. 
+    	
         Scanner sc = new Scanner(System.in);
         String input;
         boolean valid = false;
@@ -39,7 +58,6 @@ public class BoardTester {
         
         myBoard.updateBoard(4);  //testing
         System.out.println(myBoard.getCircularList());  //testing
-        
     }
     
 }
