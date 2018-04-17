@@ -78,6 +78,7 @@ public class BoardPanel extends JPanel
 	{
 		Graphics2D pen = (Graphics2D) _pen;
 		style.draw(pen, width, height);
-		// Draw PitComponents and create listeners for them
+		
+		// Draw PitComponents and assign each pit from circular array a listener corresponding to one pitcomponent.
 	}
 }
